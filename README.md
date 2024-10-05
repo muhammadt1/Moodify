@@ -1,6 +1,6 @@
 # Moodify - Spotify Playlist Creator Based on Mood
 
-This project automates the creation of a Spotify playlist based on the user's mood, determined through analysis of text input. It uses Python, the Spotify Web API, and `TextBlob` for sentiment analysis.
+This project automates the creation of a Spotify playlist based on the user's mood, determined through analysis of text input. It uses Python, the Spotify Web API, and TextBlob for sentiment analysis.
 
 ## Features
 
@@ -23,7 +23,7 @@ This project automates the creation of a Spotify playlist based on the user's mo
 
 Before you can run the project, you will need:
 
-1. **Python** installed (version 3.12 or later).
+1. **Python** installed.
 2. A **Spotify Developer Account** to access the Spotify API.
 3. The following Python libraries installed:
    - `spotipy`
