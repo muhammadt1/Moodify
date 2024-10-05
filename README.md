@@ -15,6 +15,10 @@ This project automates the creation of a Spotify playlist based on the user's mo
 - **TextBlob** for sentiment analysis
 - **requests** for making HTTP requests
 
+## Demonstration
+![Project Demo](./projectDemoGif.mp4)
+
+
 ## Prerequisites
 
 Before you can run the project, you will need:
