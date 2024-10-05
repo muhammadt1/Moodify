@@ -16,7 +16,7 @@ This project automates the creation of a Spotify playlist based on the user's mo
 - **requests** for making HTTP requests
 
 ## Demonstration
-![Project Demo](./projectDemoGif.mp4)
+![Project Demo](./projectDemoGif.gif)
 
 
 ## Prerequisites
