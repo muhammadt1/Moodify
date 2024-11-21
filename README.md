@@ -10,9 +10,8 @@ This project automates the creation of a Spotify playlist based on the user's mo
 
 ## Technologies Used
 
-- **Python 3.12** (or later)
-- **Spotify API** (via `spotipy` library)
-- **TextBlob** for sentiment analysis
+- **Spotify API**: done through the `spotipy` library
+- **TextBlob**: for sentiment analysis
 - **requests** for making HTTP requests
 
 ## Demonstration
