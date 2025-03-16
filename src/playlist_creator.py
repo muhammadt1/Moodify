@@ -20,6 +20,9 @@ def create_playlist(sp, mood, user_id):
     sp.playlist_add_items(playlist['id'], track_uris)
 
     print(f"Created '{mood.capitalize()} Vibes Playlist' with {len(track_uris)} tracks.")
+    
+    # Return the playlist object
+    return playlist
 
 
 def create_fein_playlist(sp, user_id):
@@ -39,6 +42,9 @@ def create_fein_playlist(sp, user_id):
         sp.playlist_add_items(playlist['id'], [track_uri])
         
         print(f"Created {artist_name} - {track_name} Playlist ")
+        
+        # Return the playlist object
+        return playlist
     except Exception as e:
         print(f"Error accessing the specified track: {e}")
         print("Creating a Travis Scott playlist instead.")
@@ -50,3 +56,6 @@ def create_fein_playlist(sp, user_id):
         sp.playlist_add_items(playlist['id'], track_uris)
         
         print(f"Created Travis Scott Playlist with {len(track_uris)} tracks.")
+        
+        # Return the playlist object
+        return playlist
