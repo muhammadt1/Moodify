@@ -1,4 +1,5 @@
-.cache/
+.cache
 config/credentials.py
 .env
 __pycache__
+.gitignore
