@@ -4,3 +4,4 @@ config/credentials.py
 __pycache__
 # Node.js Dependencies
 node_modules/
+requirements.txt
