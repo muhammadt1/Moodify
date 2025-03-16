@@ -6,7 +6,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from spotify_auth import get_spotify_client
 from mood_analysis import analyze_mood
-from playlist_creator import create_playlist, create_fein_playlist
+from playlist_creator import create_playlist
 
 def main():
     # Authenticate and get Spotify client
@@ -15,15 +15,10 @@ def main():
     
     # Get mood input from the user
     user_text = input("Describe your mood: ")
+    mood = analyze_mood(user_text)
     
-    # Checks case for cameo entry.
-    if user_text.upper() in ["FE!N", "FEIN"]:
-        print("Creating a playlist with Travis Scott's song 'FEIN'...")
-        create_fein_playlist(sp, user_id)
-    else:
-        # Regular mood-based playlist
-        mood = analyze_mood(user_text)
-        create_playlist(sp, mood, user_id)
+    # Create a playlist based on the mood
+    create_playlist(sp, mood, user_id)
 
 if __name__ == '__main__':
     main()
