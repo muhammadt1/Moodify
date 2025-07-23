@@ -33,3 +33,8 @@ You can install them using the following command:
 
 ```bash
 pip install spotipy textblob requests
+
+
+---
+
+Version 2 
