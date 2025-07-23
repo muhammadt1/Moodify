@@ -3,3 +3,4 @@ config/credentials.py
 .env
 __pycache__
 .gitignore
+scratchpad.txt
